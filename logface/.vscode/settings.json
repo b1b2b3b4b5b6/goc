@@ -1,0 +1,7 @@
+{
+    "go.lintFlags": [
+        "--disable-all",
+        "--enable=golint",
+        "--config=~/.gometalinter"
+    ],
+}
