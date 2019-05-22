@@ -2,8 +2,8 @@ package logface
 
 import (
 	"fmt"
-	"github.com/lumosin/goc/tl/errtool"
-	"github.com/lumosin/goc/tl/jsontool"
+	"github.com/lumosin/goc/tl/jsont"
+	"github.com/lumosin/goc/tl/errt"
 	"os"
 	"time"
 
@@ -38,8 +38,8 @@ func remoteLoop() {
 	var remoteCfg struct {
 		Host string
 	}
-	err = jsontool.Decode(json, &remoteCfg)
-	errtool.Errpanic(err)
+	err = jsont.Decode(json, &remoteCfg)
+	errt.Errpanic(err)
 
 	pool := redis.Pool{
 		MaxIdle:     3,

@@ -1,7 +1,7 @@
 package mqtt
 
 import (
-	"goc/logface"
+	"github.com/lumosin/goc/logface"
 	"time"
 
 	pahoMqtt "github.com/eclipse/paho.mqtt.golang"
