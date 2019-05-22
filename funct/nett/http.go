@@ -1,4 +1,4 @@
-package nettool
+package nett
 
 import (
 	"io/ioutil"

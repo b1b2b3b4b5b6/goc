@@ -1,4 +1,4 @@
-package iotool
+package iot
 
 import (
 	"os"

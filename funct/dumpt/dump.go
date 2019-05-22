@@ -1,4 +1,4 @@
-package dumptool
+package dumpt
 
 import (
 	"io"

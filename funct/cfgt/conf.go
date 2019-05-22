@@ -1,4 +1,4 @@
-package cfgtool
+package cfgt
 
 import (
 	"fmt"

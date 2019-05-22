@@ -1,4 +1,4 @@
-package debtool
+package debt
 
 import (
 	"encoding/json"

@@ -1,4 +1,4 @@
-package jsontool
+package jsont
 
 import (
 	"encoding/json"

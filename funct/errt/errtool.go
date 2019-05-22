@@ -1,4 +1,4 @@
-package errtool
+package errt
 
 //Errpanic is
 func Errpanic(err error) {
