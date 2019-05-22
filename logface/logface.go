@@ -43,7 +43,7 @@ type Logface struct {
 	level    Level
 }
 
-var cfg = cfgtool.New("conf.json")
+var cfg = cfgt.New("conf.json")
 
 //New is
 func New(argLevel Level) *Logface {
