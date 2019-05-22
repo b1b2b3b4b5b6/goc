@@ -2,8 +2,8 @@ package logface
 
 import (
 	"fmt"
-	"goc/toolcom/errtool"
-	"goc/toolcom/jsontool"
+	"github.com/lumosin/goc/tl/errtool"
+	"github.com/lumosin/goc/tl/jsontool"
 	"os"
 	"time"
 
