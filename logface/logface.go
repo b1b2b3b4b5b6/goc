@@ -3,7 +3,7 @@ package logface
 
 import (
 	"fmt"
-	"github.com/lumosin/goc/tl/cfgt"
+	"github.com/b1b2b3b4b5b6/goc/tl/cfgt"
 	"os"
 	"runtime"
 	"strings"

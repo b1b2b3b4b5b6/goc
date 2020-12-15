@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/lumosin/goc/tl/errt"
-	"github.com/lumosin/goc/tl/dumpt"
+	"github.com/b1b2b3b4b5b6/goc/tl/errt"
+	"github.com/b1b2b3b4b5b6/goc/tl/dumpt"
 )
 
 func DecodeString(jsonStr string, key string) (string, error) {

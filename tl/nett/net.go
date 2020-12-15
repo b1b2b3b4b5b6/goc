@@ -8,7 +8,7 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/lumosin/goc/tl/errt"
+	"github.com/b1b2b3b4b5b6/goc/tl/errt"
 )
 
 func GetLocalIP() string {
